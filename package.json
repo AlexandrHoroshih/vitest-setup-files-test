@@ -1,0 +1,26 @@
+{
+  "name": "vite-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "vitest:normal": "vitest run",
+    "vitest:error": "CASE=error vitest run",
+    "vitest:async": "CASE=async vitest run",
+    "vitest:interval": "CASE=interval vitest run",
+    "jest:normal": "jest",
+    "jest:error": "CASE=error jest",
+    "jest:async": "CASE=async jest run",
+    "jest:interval": "CASE=interval jest run"
+  },
+  "devDependencies": {
+    "vite": "^4.1.0-beta.1"
+  },
+  "dependencies": {
+    "jest": "^29.4.1",
+    "vitest": "^0.28.3"
+  }
+}

@@ -5,7 +5,10 @@ if (caseName === 'error') {
 }
 
 if (caseName === 'async') {
-  await new Promise((res) => setTimeout(res, 1000));
+  await new Promise((res) => {
+    fetch('https://example.com')
+    res()
+  });
 }
 
 if (caseName === 'interval') {
